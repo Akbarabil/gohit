@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('theme');
+        return view('partial/header');
     }
 
     public function login()
