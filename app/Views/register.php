@@ -44,46 +44,50 @@
         body {
             background-image: url("<?= base_url('img/cc.jpg') ?>");
             background-size: cover;
+            background-position: 10% 30%;
             background-repeat: no-repeat;
         }
     </style>
 
 <body class="hold-transition login-page">
-    <img src="<?= base_url('img/hehe.png') ?>" style="padding-left: 8cm;">
-    <div class="limiter">
-        <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-            <div>
-                <h1 style="margin-right: 200px; color:  aqua; font-size: 150px;">CREATE <br> NEW <br> ACCOUNT</h1>
-            </div>
-            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-                <form class="login100-form validate-form">
-                    <span class="login100-form-title p-b-49">
-                        Pendaftaran
-                    </span>
+    <div style="background-color: rgba(0, 0, 0, 0.5);">
+        <img src="<?= base_url('img/hehe.png') ?>" style="padding-left: 8cm;">
+        <div class="limiter">
+            <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+                <div>
+                    <h1 style="margin-right: 200px; color:  aliceblue; font-size: 150px;">CREATE <br> NEW <br> ACCOUNT</h1>
+                </div>
+                <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+                    <form class="login100-form validate-form">
+                        <span class="login100-form-title p-b-49">
+                            Pendaftaran
+                        </span>
 
-                    <div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
-                        <span class="label-input100">Username</span>
-                        <input class="input100" type="text" name="username" placeholder="Type your username">
-                        <span class="focus-input100" data-symbol="&#xf206;"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-                        <span class="label-input100">Password</span>
-                        <input class="input100" type="password" name="pass" placeholder="Type your password">
-                        <span class="focus-input100" data-symbol="&#xf190;"></span>
-                    </div>
-                    <div class="container-login100-form-btn">
-                        <div class="wrap-login100-form-btn">
-                            <div class="login100-form-bgbtn"></div>
-                            <button class="login100-form-btn">
-                                Create
-                            </button>
+                        <div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
+                            <span class="label-input100">Username</span>
+                            <input class="input100" type="text" name="username" placeholder="Type your username">
+                            <span class="focus-input100" data-symbol="&#xf206;"></span>
                         </div>
-                    </div>
-                </form>
+
+                        <div class="wrap-input100 validate-input" data-validate="Password is required">
+                            <span class="label-input100">Password</span>
+                            <input class="input100" type="password" name="pass" placeholder="Type your password">
+                            <span class="focus-input100" data-symbol="&#xf190;"></span>
+                        </div>
+                        <div class="container-login100-form-btn">
+                            <div class="wrap-login100-form-btn">
+                                <div class="login100-form-bgbtn"></div>
+                                <button class="login100-form-btn">
+                                    Create
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+
     <footer class="footer-59391">
 
         <div class="container">
