@@ -51,7 +51,7 @@
 
 <body class="hold-transition login-page">
     <div style="background-color: rgba(0, 0, 0, 0.5);">
-        <img src="<?= base_url('img/hehe.png') ?>" style="padding-left: 8cm;">
+        <img src="<?= base_url('assets/image/logo.png') ?>" style="padding-left: 8cm;">
         <div class="limiter">
             <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
                 <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">

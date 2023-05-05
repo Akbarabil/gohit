@@ -44,14 +44,14 @@
         body {
             background-image: url("<?= base_url('img/cc.jpg') ?>");
             background-size: cover;
-            background-position: 10% 30%;
+            background-position: 10% 20%;
             background-repeat: no-repeat;
         }
     </style>
 
 <body class="hold-transition login-page">
     <div style="background-color: rgba(0, 0, 0, 0.5);">
-        <img src="<?= base_url('img/hehe.png') ?>" style="padding-left: 8cm;">
+        <img src="<?= base_url('assets/image/logo.png') ?>" style="padding-left: 8cm;">
         <div class="limiter">
             <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
                 <div>
