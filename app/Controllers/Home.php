@@ -23,4 +23,9 @@ class Home extends BaseController
     {
         return view('index');
     }
+
+    public function com()
+    {
+        return view('createCOMP');
+    }
 }

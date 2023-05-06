@@ -33,6 +33,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/login', 'Home::login');
 $routes->get('/reg', 'Home::reg');
 $routes->get('/ww', 'Home::ww');
+$routes->get('/com', 'Home::com');
 
 /*
  * --------------------------------------------------------------------
