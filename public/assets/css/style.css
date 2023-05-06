@@ -5,7 +5,15 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
+ .warna-primary {
+  background-color: #c53f3e;
+}
+.btn-all {
+  font-size: 40px;
+}
+.fw-megabold {
+  font-weight: 900;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -2925,11 +2933,11 @@ fieldset:disabled .btn {
   --bs-btn-border-color: #fff;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #ac2d2d;
-  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-hover-border-color: #822222;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #0a58ca;
-  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-bg: #822222;
+  --bs-btn-active-border-color: #822222;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
@@ -11044,6 +11052,7 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+  
 }
 
 /*# sourceMappingURL=style.css.map */
