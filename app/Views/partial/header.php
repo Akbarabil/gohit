@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <title>Website Menu #8</title>
+    
 </head>
 
 <body>
-    <header class="mx-5 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+    <header class="mx-5 d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
         <img src="<?= base_url('assets/image/logo.png') ?>" alt="" srcset="" class="d-flex align-items-center">
         
 
