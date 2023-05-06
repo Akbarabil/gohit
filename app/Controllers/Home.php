@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
+    public function home()
     {
         return view('home');
     }
@@ -24,8 +24,19 @@ class Home extends BaseController
         return view('index');
     }
 
-    public function com()
+    public function form()
     {
         return view('createCOMP');
     }
+    
+    public function list()
+    {
+        return view('list');
+    }
+
+    public function event()
+    {
+        return view('event');
+    }
+
 }

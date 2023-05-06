@@ -1,6 +1,6 @@
-<?= $this->include('partial/header') ?>
+<?= $this->include('partial/header')?>
 <link rel="stylesheet" type="text/css" href="css/create.css">
-<div class="formbold-main-wrapper" style="background-color: #C53F3E">
+<div class="formbold-main-wrapper warna-primary">
     <!-- Author: FormBold Team -->
     <!-- Learn More: https://formbold.com -->
     <div class="formbold-form-wrapper">

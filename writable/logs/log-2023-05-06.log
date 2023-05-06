@@ -32,3 +32,113 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
 10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:49:27 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(33): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:49:50 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:49:51 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:50:33 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:50:37 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:51:51 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:52:04 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:52:04 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:52:11 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:52:50 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
+CRITICAL - 2023-05-06 13:52:51 --> Invalid file: "list.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Baru\\gohit\\public\\index.php')
