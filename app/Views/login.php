@@ -87,6 +87,7 @@
                                     Login
                                 </button>
                             </div>
+
                         </div>
 
                         <div class="txt1 text-center p-t-54 p-b-20">
@@ -107,8 +108,9 @@
                             <a href="#" class="login100-social-item bg3">
                                 <i class="fa fa-google"></i>
                             </a>
-                        </div>
 
+                        </div>
+                        <center><a href="reg" class="txt2">Create Account</a></center>
                         <div class="flex-col-c p-t-155">
                             <span class="txt1 p-b-17">
                                 Or Sign Up Using
