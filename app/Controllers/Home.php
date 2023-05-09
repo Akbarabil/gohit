@@ -28,7 +28,7 @@ class Home extends BaseController
     {
         return view('createCOMP');
     }
-    
+
     public function list()
     {
         return view('list');
@@ -39,4 +39,8 @@ class Home extends BaseController
         return view('event');
     }
 
+    public function dt()
+    {
+        return view('detailTour');
+    }
 }
