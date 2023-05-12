@@ -38,7 +38,6 @@ $routes->get('/form', 'Home::form');
 $routes->get('/list', 'Home::list');
 $routes->get('/event', 'Home::event');
 $routes->get('/dt', 'Home::dt');
-
 /*
  * --------------------------------------------------------------------
  * Additional Routing
