@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="split split-one">
                     <div class="round round-one current">
-                        <div class="round-details">Round 1<br /><span class="date">March 16</span></div>
+                        <div class="round-details">Quarter-Final<br /><span class="date">March 16</span></div>
                         <ul class="matchup">
                             <li class="team team-top">Duke<span class="score">76</span></li>
                             <li class="team team-bottom">Virginia<span class="score">82</span></li>
@@ -47,7 +47,7 @@
                     </div> <!-- END ROUND ONE -->
 
                     <div class="round round-two">
-                        <div class="round-details">Round 2<br /><span class="date">March 18</span></div>
+                        <div class="round-details">Semi-Final<br /><span class="date">March 18</span></div>
                         <ul class="matchup1">
                             <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
                             <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
@@ -59,7 +59,7 @@
                     </div> <!-- END ROUND TWO -->
 
                     <div class="round round-three">
-                        <div class="round-details">Round 3<br /><span class="date">March 22</span></div>
+                        <div class="round-details">Final<br /><span class="date">March 22</span></div>
                         <ul class="matchup2">
                             <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
                             <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
@@ -73,7 +73,6 @@
                         <div class="round-details">championship <br /><span class="date">March 30 - Apr. 1</span></div>
                         <ul class="matchup championship">
                             <li class="team team-top">&nbsp;<span class="vote-count">&nbsp;</span></li>
-                            <li class="team team-bottom">&nbsp;<span class="vote-count">&nbsp;</span></li>
                         </ul>
                     </div>
                 </div>
