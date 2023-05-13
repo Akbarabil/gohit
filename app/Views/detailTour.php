@@ -7,8 +7,8 @@
 <?= $this->include('partial/header') ?>
 <div>
     <div class="limiter">
-        <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
-            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54" style="margin-top: 25px; background-color: azure;">
+        <div class="container-login1001" style="background-image: url('images/bg-01.jpg');">
+            <div class="wrap-login1001 p-l-55 p-r-55 p-t-65 p-b-54" style="margin-top: 25px; background-color: azure;">
                 <form class="login100-form validate-form">
                     <span class="login100-form-title p-b-49">
                         Badminton Tournament For poharin
@@ -57,6 +57,9 @@
             </div>
         </div>
     </div>
+</div>
+<div>
+    <?= $this->include('partial/peserta') ?>
 </div>
 <div>
     <?= $this->include('partial/bracket') ?>
