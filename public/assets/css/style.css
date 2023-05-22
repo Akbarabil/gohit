@@ -275,6 +275,11 @@ sup {
   top: -0.5em;
 }
 
+header a {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+}
+
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
