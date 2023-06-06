@@ -1,9 +1,9 @@
-<?= $this->include('partial/header') ?>
+<?= $this->include('partial/header2') ?>
 <div>
     <div class="banner text-center">
         <img src="<?= base_url('assets/image/bgfull.png') ?>" alt="" srcset="" class="img-fluid" style="width: 400%; height: 400%;">
     </div>
-    
+
     <?= $this->include('partial/latest') ?>
 
     <div class="container mt-5">
