@@ -23,6 +23,7 @@ class Login extends BaseController
             $user = $userModel->getUserById($namaPengguna);
             $data = [
                 'nama' => $user['nama'],
+                // 'id' => $namaPengguna, untuk menampilkan id
                 'title' => 'Log In'
             ];
             echo view("home", $data);
