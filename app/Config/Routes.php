@@ -34,6 +34,7 @@ $routes->get('/home', 'Home::home');
 $routes->get('/login', 'Home::login');
 $routes->post('/auth/login', 'Login::login');
 $routes->get('/reg', 'Home::reg');
+$routes->post('/reg/add', 'Login::add');
 $routes->get('/ww', 'Home::ww');
 $routes->get('/form', 'Home::form');
 $routes->get('/join', 'Home::join');

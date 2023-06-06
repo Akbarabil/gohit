@@ -23,6 +23,7 @@ class Login extends BaseController
             $user = $userModel->getUserById($namaPengguna);
             $data = [
                 'nama' => $user['nama'],
+                // 'id' => $namaPengguna, untuk menampilkan id
                 'title' => 'Log In'
             ];
             echo view("home", $data);
@@ -52,5 +53,20 @@ class Login extends BaseController
         $session->destroy();
 
         return redirect()->to(base_url('/'));
+    }
+    public function add()
+    {
+        $model = new user;
+        $data = array(
+            'nama' => $this->request->getPost("nama"),
+            'email' => $this->request->getPost("email"),
+            'password' => $this->request->getPost("password"),
+            'jenis' => "1"
+        );
+        $model->saveuser($data);
+        echo '<script>
+                alert("Selamat! Berhasil Menambah Data ");
+                window.location="' . base_url('/login') . '"
+            </script>';
     }
 }

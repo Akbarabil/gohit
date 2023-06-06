@@ -58,7 +58,7 @@
                     <h1 style="margin-right: 200px; color:  aliceblue; font-size: 150px;">CREATE <br> NEW <br> ACCOUNT</h1>
                 </div>
                 <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-                    <form class="login100-form validate-form">
+                    <form class="login100-form validate-form" action="/reg/add" method="post">
                         <span class="login100-form-title p-b-49">
                             Pendaftaran
                         </span>
@@ -69,13 +69,13 @@
                             <span class="focus-input100" data-symbol="&#xf206;"></span>
                         </div>
                         <div class="wrap-input100 validate-input m-b-23" data-validate="Username is reauired">
-                            <span class="label-input100">Username</span>
-                            <input class="input100" type="text" name="username" placeholder="Type your username">
+                            <span class="label-input100">Name</span>
+                            <input class="input100" type="text" name="nama" placeholder="Type your username">
                             <span class="focus-input100" data-symbol="&#xf206;"></span>
                         </div>
                         <div class="wrap-input100 validate-input m-b-23" data-validate="Password is required">
                             <span class="label-input100">Password</span>
-                            <input class="input100" type="password" name="pass" placeholder="Type your password">
+                            <input class="input100" type="password" name="password" placeholder="Type your password">
                             <span class="focus-input100" data-symbol="&#xf190;"></span>
                         </div>
                         <div class="wrap-input100 validate-input" data-validate="Password is required">
