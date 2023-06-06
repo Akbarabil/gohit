@@ -23,10 +23,6 @@ class User extends Migration
                 'type'           => 'VARCHAR',
                 'constraint'     => '255',
             ],
-            'no_tel'       => [
-                'type'           => 'VARCHAR',
-                'constraint'     => '255',
-            ],
             'password' => [
                 'type'           => 'VARCHAR',
                 'constraint'     => '255',
