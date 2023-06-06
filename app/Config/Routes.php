@@ -41,6 +41,7 @@ $routes->get('/join', 'Home::join');
 $routes->get('/list', 'Home::list');
 $routes->get('/event', 'Home::event');
 $routes->get('/dt', 'Home::dt');
+$routes->get('/setting', 'Home::setting');
 $routes->get('/logout', 'Login::logout');
 /*
  * --------------------------------------------------------------------
