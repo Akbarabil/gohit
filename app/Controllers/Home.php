@@ -66,4 +66,9 @@ class Home extends BaseController
     {
         return view('join');
     }
+
+    public function setting()
+    {
+        return view('setting');
+    }
 }
