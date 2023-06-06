@@ -2,8 +2,11 @@
 
 namespace App\Controllers;
 
+use App\Models\User;
+
 class Home extends BaseController
 {
+    protected $session;
     public function home()
     {
         return view('home');
@@ -36,11 +39,31 @@ class Home extends BaseController
 
     public function event()
     {
-        return view('event');
+        $session = session();
+        if (!$session->has('id')) {
+            $data = [
+                'title' => 'event'
+            ];
+            echo view("login", $data);
+        } else {
+            $namaPengguna = $session->get('id');
+            $userModel = new user();
+            $user = $userModel->getUserById($namaPengguna);
+            $data = [
+                'nama' => $user['nama'],
+                'title' => 'event'
+            ];
+            echo view("event", $data);
+        }
     }
 
     public function dt()
     {
         return view('detailTour');
+    }
+
+    public function join()
+    {
+        return view('join');
     }
 }

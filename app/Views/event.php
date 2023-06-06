@@ -1,4 +1,4 @@
-<?= $this->include('partial/header') ?>
+<?= $this->include('partial/header2') ?>
 <div class="container mt-3">
     <center>
         <h1 class="mb-4 fw-bold"><strong>MY EVENT</strong></h1>
@@ -17,9 +17,9 @@
         <?php } ?>
     </div>
     <center>
-            <a href="form">
-                <button type="button" class="btn btn-primary mt-4" style="font-size: 20px !important; width: 500px !important;">Create New Competition</button>
-            </a>
+        <a href="form">
+            <button type="button" class="btn btn-primary mt-4" style="font-size: 20px !important; width: 500px !important;">Create New Competition</button>
+        </a>
     </center>
 </div>
 <?= $this->include('partial/latest') ?>

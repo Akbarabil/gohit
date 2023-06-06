@@ -60,8 +60,12 @@
 <div>
     <?= $this->include('partial/peserta') ?>
 </div>
-<div>
-    <?= $this->include('partial/bracket') ?>
+<div class="container-login100-form-btn" style="border-radius: 25px;">
+    <div>
+        <button class="login100-form-btn" style="background-color: #c53f3e;">
+            Login
+        </button>
+    </div>
 </div>
 <?= $this->include('partial/latest') ?>
 <?= $this->include('partial/footer') ?>

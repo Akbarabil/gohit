@@ -1,4 +1,4 @@
-<?= $this->include('partial/header') ?>
+<?= $this->include('partial/header2') ?>
 
 <div class="container mt-3">
     <center>

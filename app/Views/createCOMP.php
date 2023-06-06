@@ -1,4 +1,4 @@
-<?= $this->include('partial/header')?>
+<?= $this->include('partial/header2') ?>
 <link rel="stylesheet" type="text/css" href="css/create.css">
 <div class="formbold-main-wrapper warna-primary">
     <!-- Author: FormBold Team -->
