@@ -29,7 +29,23 @@ class Home extends BaseController
 
     public function form()
     {
-        return view('createCOMP');
+        $session = session();
+        if (!$session->has('id')) {
+            $data = [
+                'title' => 'event'
+            ];
+            echo view("login", $data);
+        } else {
+            $namaPengguna = $session->get('id');
+            $userModel = new user();
+            $user = $userModel->getUserById($namaPengguna);
+            $data = [
+                'nama' => $user['nama'],
+                'id' => $namaPengguna,
+                'title' => 'event'
+            ];
+            echo view("createCOMP", $data);
+        }
     }
 
     public function list()

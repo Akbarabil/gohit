@@ -4,53 +4,51 @@
     <!-- Author: FormBold Team -->
     <!-- Learn More: https://formbold.com -->
     <div class="formbold-form-wrapper">
-        <form action="https://formbold.com/s/FORM_ID" method="POST">
+        <form method="POST" action="/form/add">
             <div class="formbold-input-wrapp formbold-mb-3">
                 <label for="firstname" class="formbold-form-label"> Title </label>
 
                 <div>
-                    <input type="text" name="firstname" id="firstname" placeholder="First name" class="formbold-form-input " />
+                    <input type="text" name="title" placeholder="First name" class="formbold-form-input " />
                 </div>
             </div>
 
             <div class="formbold-mb-3">
-                <label for="dob" class="formbold-form-label"> Date of Birth </label>
-                <input type="date" name="dob" id="dob" class="formbold-form-input " />
+                <label for="dob" class="formbold-form-label">Date</label>
+                <input type="date" name="date" class="formbold-form-input " />
             </div>
 
             <div class="formbold-mb-3">
                 <label for="age" class="formbold-form-label"> Time </label>
-                <input type="text" name="age" id="age" placeholder="HH:MM" class="formbold-form-input " />
+                <input type="time" name="time" placeholder="HH:MM" class="formbold-form-input " />
             </div>
 
             <div class="formbold-mb-3">
                 <label for="age" class="formbold-form-label"> Organizer </label>
-                <input type="text" name="age" id="age" placeholder="   " class="formbold-form-input " />
+                <input type="text" name="organize" placeholder="   " class="formbold-form-input " />
             </div>
 
             <div class="formbold-mb-3">
                 <label class="formbold-form-label">Type Sport</label>
 
-                <select class="formbold-form-input " name="occupation" id="occupation">
-                    <option value="male">Esport</option>
-                    <option value="female">Sport</option>
-                    <option value="others">Others</option>
+                <select class="formbold-form-input " name="type">
+                    <option value="Esport">Esport</option>
+                    <option value="Sport">Sport</option>
+                    <option value="Others">Others</option>
                 </select>
             </div>
 
             <div class="formbold-mb-3">
                 <label class="formbold-form-label">Participan</label>
-
-                <select class="formbold-form-input " name="occupation" id="occupation">
-                    <option value="male">8</option>
-                    <option value="female">16</option>
+                <select class="formbold-form-input " name="participan">
+                    <option value="8">8</option>
+                    <option value="6">16</option>
                 </select>
             </div>
 
             <div class="formbold-mb-3">
                 <label for="address" class="formbold-form-label"> Location </label>
-
-                <input type="text" name="address" id="address" placeholder="Street address/Online" class="formbold-form-input formbold-mb-3" />
+                <input type="text" name="location" placeholder="Street address/Online" class="formbold-form-input formbold-mb-3" />
             </div>
 
             <div class="formbold-mb-3">
@@ -62,9 +60,9 @@
 
             <div class="formbold-mb-3">
                 <label for="age" class="formbold-form-label"> Price </label>
-                <input type="text" name="age" id="age" placeholder="   " class="formbold-form-input" />
+                <input type="text" name="price" placeholder="   " class="formbold-form-input" />
             </div>
-
+            <input type="hidden" name="l" value="<?php echo $id ?>" class="formbold-form-input" />
             <div class="formbold-checkbox-wrapper">
                 <label for="supportCheckbox" class="formbold-checkbox-label">
                     <div class="formbold-relative">

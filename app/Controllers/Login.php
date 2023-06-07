@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\User;
+use App\Models\Eventm;
 
 class Login extends BaseController
 {
@@ -23,7 +24,7 @@ class Login extends BaseController
             $user = $userModel->getUserById($namaPengguna);
             $data = [
                 'nama' => $user['nama'],
-                // 'id' => $namaPengguna, untuk menampilkan id
+                'id' => $namaPengguna,
                 'title' => 'Log In'
             ];
             echo view("home", $data);
@@ -67,6 +68,27 @@ class Login extends BaseController
         echo '<script>
                 alert("Selamat! Berhasil Menambah Data ");
                 window.location="' . base_url('/login') . '"
+            </script>';
+    }
+
+    public function form()
+    {
+        $model = new Eventm;
+        $data = array(
+            'id_user' => $this->request->getPost("l"),
+            'title' => $this->request->getPost("title"),
+            'date_column' => $this->request->getPost("date"),
+            'time' => $this->request->getPost("time"),
+            'organizer' => $this->request->getPost("organize"),
+            'type_sport' => $this->request->getPost("type"),
+            'participant' => $this->request->getPost("participan"),
+            'location' => $this->request->getPost("location"),
+            'price' => $this->request->getPost("price")
+        );
+        $model->saveuser($data);
+        echo '<script>
+                alert("Selamat! Berhasil Membuat Competition ");
+                window.location="' . base_url('/event') . '"
             </script>';
     }
 }
