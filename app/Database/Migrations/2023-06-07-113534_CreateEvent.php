@@ -48,6 +48,10 @@ class CreateEvent extends Migration
                 'type'           => 'VARCHAR',
                 'constraint'     => '255',
             ],
+            'upload'           => [
+                'type'           => 'VARCHAR',
+                'constraint'     => '255',
+            ],
             'price'              => [
                 'type'           => 'VARCHAR',
                 'constraint'     => '255',

@@ -4,7 +4,7 @@
     <!-- Author: FormBold Team -->
     <!-- Learn More: https://formbold.com -->
     <div class="formbold-form-wrapper">
-        <form method="POST" action="/form/add">
+        <form method="POST" action="/form/add" enctype="multipart/form-data">
             <div class="formbold-input-wrapp formbold-mb-3">
                 <label for="firstname" class="formbold-form-label"> Title </label>
 
@@ -79,7 +79,6 @@
                     <a href="#"> terms, conditions, and policies</a>
                 </label>
             </div>
-
             <button class="formbold-btn">Submit</button>
         </form>
     </div>
