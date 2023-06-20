@@ -9,28 +9,28 @@
             <div class="formbold-input-wrapp formbold-mb-3">
                 <label for="email" class="formbold-form-label"> Email</label>
                 <div>
-                    <input type="text" name="email" id="email" placeholder="abcde@gmail.com" class="formbold-form-input "/>
+                    <input type="text" name="email" id="email" placeholder="abcde@gmail.com" class="formbold-form-input " />
                 </div>
             </div>
 
             <div class="formbold-mb-3">
-            <label for="username" class="formbold-form-label ">Username</label>
+                <label for="username" class="formbold-form-label ">Username</label>
                 <div>
-                    <input type="text" name="username" id="username" placeholder="Username" class="formbold-form-input "/>
+                    <input type="text" name="username" id="username" placeholder="Username" class="formbold-form-input " />
                 </div>
             </div>
 
             <div class="formbold-mb-3">
-            <label for="name" class="formbold-form-label">Full Name</label>
+                <label for="name" class="formbold-form-label">Full Name</label>
                 <div>
-                    <input type="text" name="name" id="name" placeholder="Full name" class="formbold-form-input "/>
+                    <input type="text" name="name" id="name" placeholder="Full name" class="formbold-form-input " />
                 </div>
             </div>
 
             <div class="formbold-mb-3">
-            <label for="city" class="formbold-form-label">City</label>
+                <label for="city" class="formbold-form-label">City</label>
                 <div>
-                    <input type="text" name="city" id="city" placeholder="City" class="formbold-form-input "/>
+                    <input type="text" name="city" id="city" placeholder="City" class="formbold-form-input " />
                 </div>
             </div>
 
@@ -42,23 +42,23 @@
             </div>
 
             <div class="formbold-mb-3">
-            <label for="city" class="formbold-form-label">Current Password</label>
+                <label for="city" class="formbold-form-label">Current Password</label>
                 <div>
-                    <input type="password" name="cpassword" id="cpassword" placeholder="Current password" class="formbold-form-input "/>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="Current password" class="formbold-form-input " />
                 </div>
             </div>
 
             <div class="formbold-mb-3">
-            <label for="city" class="formbold-form-label">New Password</label>
+                <label for="city" class="formbold-form-label">New Password</label>
                 <div>
-                    <input type="password" name="npassword" id="npassword" placeholder="New Password" class="formbold-form-input "/>
+                    <input type="password" name="npassword" id="npassword" placeholder="New Password" class="formbold-form-input " />
                 </div>
             </div>
 
             <div class="formbold-mb-3">
-            <label for="city" class="formbold-form-label">Confirm New Password</label>
+                <label for="city" class="formbold-form-label">Confirm New Password</label>
                 <div>
-                    <input type="password" name="fpassword" id="fpassword" placeholder="Conform new password" class="formbold-form-input "/>
+                    <input type="password" name="fpassword" id="fpassword" placeholder="Conform new password" class="formbold-form-input " />
                 </div>
             </div>
 
