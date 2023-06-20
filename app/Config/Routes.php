@@ -41,7 +41,7 @@ $routes->post('/form/add', 'Formevent::form');
 $routes->get('/join', 'Home::join');
 $routes->get('/list', 'Home::list');
 $routes->get('/event', 'MyEvent::index');
-$routes->get('/dt', 'DetailEvent::index');
+$routes->get('/dt/(:any)', 'DetailEvent::index/$1');
 $routes->get('/setting', 'Home::setting');
 $routes->get('/logout', 'Login::logout');
 /*

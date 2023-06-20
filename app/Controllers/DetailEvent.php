@@ -8,21 +8,28 @@ use App\Models\MyEventMod;
 
 class DetailEvent extends BaseController
 {
-    public function index()
+    public function index($idevent)
     {
         $session = session();
+        $userModel = new user();
+        $MyEvent = new MyEventMod();
+        $namaPengguna = $session->get('id');
+
+        $selectedevent = $MyEvent->where('id_event', $idevent)->findAll();
+
+
         if (!$session->has('id')) {
             $data = [
                 'title' => 'Login'
             ];
             echo view("login", $data);
         } else {
-            $namaPengguna = $session->get('id');
             $userModel = new user();
             $user = $userModel->getUserById($namaPengguna);
             $MyEvent = new MyEventMod();
             $latestProducts = $MyEvent->getexpertslug('hh');
             $data = [
+                'selectedevent' => $selectedevent,
                 'nama' => $user['nama'],
                 'isi' => $latestProducts,
                 'title' => 'event'
