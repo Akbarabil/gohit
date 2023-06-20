@@ -57,6 +57,7 @@
         </div>
     </div>
 </div>
+<input type="text" name="lol" value="<?php echo $nama ?>" class="formbold-form-input" />
 <div>
     <?= $this->include('partial/peserta') ?>
 </div>

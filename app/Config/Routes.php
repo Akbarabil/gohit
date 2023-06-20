@@ -40,8 +40,8 @@ $routes->get('/form', 'Home::form');
 $routes->post('/form/add', 'Formevent::form');
 $routes->get('/join', 'Home::join');
 $routes->get('/list', 'Home::list');
-$routes->get('/event', 'Home::event');
-$routes->get('/dt', 'Home::dt');
+$routes->get('/event', 'MyEvent::index');
+$routes->get('/dt', 'DetailEvent::index');
 $routes->get('/setting', 'Home::setting');
 $routes->get('/logout', 'Login::logout');
 /*

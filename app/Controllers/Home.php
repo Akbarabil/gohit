@@ -9,7 +9,23 @@ class Home extends BaseController
     protected $session;
     public function home()
     {
-        return view('home');
+        $session = session();
+        if (!$session->has('id')) {
+            $data = [
+                'title' => 'Login'
+            ];
+            echo view("login", $data);
+        } else {
+            $namaPengguna = $session->get('id');
+            $userModel = new user();
+            $user = $userModel->getUserById($namaPengguna);
+            $data = [
+                'nama' => $user['nama'],
+                'id' => $namaPengguna,
+                'title' => 'Home'
+            ];
+            echo view("home", $data);
+        }
     }
 
     public function login()
@@ -32,7 +48,7 @@ class Home extends BaseController
         $session = session();
         if (!$session->has('id')) {
             $data = [
-                'title' => 'event'
+                'title' => 'Login'
             ];
             echo view("login", $data);
         } else {
@@ -58,7 +74,7 @@ class Home extends BaseController
         $session = session();
         if (!$session->has('id')) {
             $data = [
-                'title' => 'event'
+                'title' => 'Login'
             ];
             echo view("login", $data);
         } else {
@@ -67,6 +83,7 @@ class Home extends BaseController
             $user = $userModel->getUserById($namaPengguna);
             $data = [
                 'nama' => $user['nama'],
+                'id' => $namaPengguna,
                 'title' => 'event'
             ];
             echo view("event", $data);
@@ -75,7 +92,24 @@ class Home extends BaseController
 
     public function dt()
     {
-        return view('detailTour');
+        $session = session();
+        if (!$session->has('id')) {
+            $data = [
+                'title' => 'Login'
+            ];
+            echo view("login", $data);
+        } else {
+            $namaPengguna = $session->get('id');
+            $userModel = new user();
+            $user = $userModel->getUserById($namaPengguna);
+            $data = [
+                'nama' => $user['nama'],
+                'id' => $namaPengguna,
+                'id_event' => $this->request->getPost('hh'),
+                'title' => 'event'
+            ];
+            echo view("detailTour", $data);
+        }
     }
 
     public function join()
