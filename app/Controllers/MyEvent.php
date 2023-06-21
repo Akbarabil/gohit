@@ -32,10 +32,13 @@ class MyEvent extends BaseController
                 ];
                 echo view("event", $data);
             } else {
+                $user = $userModel->getUserById($namaPengguna);
                 $data = [
+                    'nama' => $user['nama'],
+                    'id' => $namaPengguna,
                     'compe' => "",
                 ];
-                echo view("event");
+                echo view("event", $data);
             }
         }
     }
