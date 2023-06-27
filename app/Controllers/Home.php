@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\User;
+use App\Models\MyEventMod;
 
 class Home extends BaseController
 {
@@ -10,18 +11,22 @@ class Home extends BaseController
     public function home()
     {
         $session = session();
+        $userModel = new user();
+        $MyEvent = new MyEventMod();
+        $namaPengguna = $session->get('id');
         if (!$session->has('id')) {
             $data = [
                 'title' => 'Login'
             ];
             echo view("login", $data);
         } else {
-            $namaPengguna = $session->get('id');
             $userModel = new user();
             $user = $userModel->getUserById($namaPengguna);
+            $latestProducts = $MyEvent->findAll(3);
             $data = [
                 'nama' => $user['nama'],
                 'id' => $namaPengguna,
+                'compe' => $latestProducts,
                 'title' => 'Home'
             ];
             echo view("home", $data);

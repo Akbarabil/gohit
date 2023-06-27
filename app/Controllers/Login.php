@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\User;
+use App\Models\MyEventMod;
 use App\Models\Eventm;
 
 class Login extends BaseController
@@ -12,6 +13,8 @@ class Login extends BaseController
     public function index()
     {
         $session = session();
+        $MyEvent = new MyEventMod();
+        $namaPengguna = $session->get('id');
         if (!$session->has('id')) {
 
             $data = [
@@ -19,12 +22,13 @@ class Login extends BaseController
             ];
             echo view("home", $data);
         } else {
-            $namaPengguna = $session->get('id');
             $userModel = new user();
             $user = $userModel->getUserById($namaPengguna);
+            $latestProducts = $MyEvent->findAll(3);
             $data = [
                 'nama' => $user['nama'],
                 'id' => $namaPengguna,
+                'compe' => $latestProducts,
                 'title' => 'Log In'
             ];
             echo view("home", $data);
@@ -41,7 +45,7 @@ class Login extends BaseController
             // Login berhasil, simpan informasi pengguna ke dalam session
             $session = session();
             $session->set('id', $user['id_user']);
-            return redirect()->to(base_url('/'));
+            return redirect()->to(base_url('/home'));
         } else {
             $data['error'] = 'Email atau password salah.';
             return redirect()->to(base_url('/login'));

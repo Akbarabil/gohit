@@ -18,8 +18,8 @@
         </a>
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="#" class="nav-link px-2 link-dark fw-bold">Calendar</a></li>
-            <li><a href="event" class="mx-5 nav-link px-2 link-dark fw-bold">My Competition</a></li>
-            <li><a href="late" class="nav-link px-2 link-dark fw-bold">News</a></li>
+            <li><a href="/event" class="mx-5 nav-link px-2 link-dark fw-bold">My Competition</a></li>
+            <li><a href="/late" class="nav-link px-2 link-dark fw-bold">News</a></li>
         </ul>
         <div class="text-end">
             <?php
