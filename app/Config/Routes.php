@@ -46,6 +46,8 @@ $routes->get('/dtt/(:any)', 'DetailEvent::peserta/$1');
 $routes->get('/setting', 'Home::setting');
 $routes->get('/logout', 'Login::logout');
 $routes->get('/hots', 'Hotss::index');
+
+$routes->get('/admin/dashboard', 'Admin\DashboardController::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
