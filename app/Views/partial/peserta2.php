@@ -32,5 +32,5 @@
     <div style="text-align: center;">
         <h1>ceOops tidak ada kompetisi</h1>
     </div>
-
 <?php } ?>
+<center><a href="login"><button type="button" class="btn btn-primary fw-bold" style="margin-top: 2cm;">JOIN</button></a></center>

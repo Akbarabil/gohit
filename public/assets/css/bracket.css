@@ -6,19 +6,25 @@
 }
 
 .round-two .matchup1 {
-  margin: 0;
-  width: 100%;
   padding: 100px 0;
   height: 60px;
+  margin-top: 180px;
+  align-self: center;
+  margin-right: 200px;
+  width: 55%;
+  margin-left: 135px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .round-three .matchup2 {
-  margin: 0;
-  width: 100%;
-  padding: 200px 0;
+  padding: 100px 0;
+  align-self: center;
   height: 60px;
+  margin-top: 370px;
+  margin-right: 200px;
+  width: 55%;
+  margin-left: 200px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -70,7 +76,7 @@
 }
 .container {
   max-width: 2100px;
-  height: 500px;
+  height: 1090px;
   margin: 0 auto;
   display: block;
   display: -webkit-box;
@@ -98,13 +104,13 @@
 .champion {
   float: left;
   padding-top: 160px;
-  padding-left: 1cm;
+  padding-left: 30cm;
   display: block;
   width: 16%;
+  align-self: center;
   -webkit-flex-direction: row;
   flex-direction: row;
   -webkit-align-self: center;
-  align-self: center;
   margin-top: -220px;
   text-align: center;
   padding: 230px 0\9;
@@ -112,6 +118,9 @@
 .champion i {
   color: #a0a6a8;
   font-size: 45px;
+  align-self: center;
+  align-items: center;
+  align-content: center;
   padding: 10px 0;
 }
 .round {
@@ -135,8 +144,11 @@
   margin: 0 0 0 2.5%;
 }
 .matchup {
-  margin: 0;
-  width: 100%;
+  margin-top: 100px;
+  margin-right: 200px;
+  align-self: center;
+  width: 55%;
+  margin-left: 115px;
   padding: 50px 0;
   height: 60px;
   -webkit-transition: all 0.2s;
@@ -156,7 +168,8 @@
   padding: 0 5px;
   font-size: 20px;
   margin: 3px 0;
-  height: 25px;
+  height: 95px;
+  width: 60p;
   line-height: 25px;
   white-space: nowrap;
   overflow: hidden;
@@ -185,7 +198,6 @@
 .round li {
   background-color: #fff;
   box-shadow: none;
-  opacity: 0.45;
 }
 .current li {
   opacity: 1;

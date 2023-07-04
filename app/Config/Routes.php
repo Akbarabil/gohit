@@ -43,6 +43,7 @@ $routes->get('/list', 'Home::list');
 $routes->get('/event', 'MyEvent::index');
 $routes->get('/dt/(:any)', 'DetailEvent::index/$1');
 $routes->get('/dtt/(:any)', 'DetailEvent::peserta/$1');
+$routes->get('/list/(:any)', 'DetailEvent::list/$1');
 $routes->get('/setting', 'Home::setting');
 $routes->get('/logout', 'Login::logout');
 $routes->get('/hots', 'Hotss::index');

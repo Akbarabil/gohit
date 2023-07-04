@@ -29,52 +29,322 @@
                     <div class="round round-one current">
                         <div class="round-details">Quarter-Final<br /><span class="date">March 16</span></div>
                         <ul class="matchup">
-                            <li class="team team-top">Duke<span class="score">76</span></li>
-                            <li class="team team-bottom">Virginia<span class="score">82</span></li>
+                            <li class="team team-top">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team team-bottom">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                         <ul class="matchup">
-                            <li class="team team-top">Wake Forest<span class="score">64</span></li>
-                            <li class="team team-bottom">Clemson<span class="score">56</span></li>
+                            <li class="team team-top">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team team-bottom">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                         <ul class="matchup">
-                            <li class="team team-top">North Carolina<span class="score">68</span></li>
-                            <li class="team team-bottom">Florida State<span class="score">54</span></li>
+                            <li class="team team-top">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team team-bottom">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                         <ul class="matchup">
-                            <li class="team team-top">NC State<span class="score">74</span></li>
-                            <li class="team team-bottom">Maryland<span class="score">92</span></li>
+                            <li class="team team-top">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team team-bottom">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div> <!-- END ROUND ONE -->
 
                     <div class="round round-two">
                         <div class="round-details">Semi-Final<br /><span class="date">March 18</span></div>
                         <ul class="matchup1">
-                            <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                            <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                            <li class="team team-top">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team team-bottom">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                         <ul class="matchup1">
-                            <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                            <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                            <li class="team team-top">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team team-bottom">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
-                    </div> <!-- END ROUND TWO -->
+                    </div> <!--  END ROUND TWO -->
 
                     <div class="round round-three">
                         <div class="round-details">Final<br /><span class="date">March 22</span></div>
                         <ul class="matchup2">
-                            <li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-                            <li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
+                            <li class="team team-top">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team team-bottom">
+                                <div>
+                                    <div>
+                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                            <div class="entry-player-wrap">
+                                                <div class="entry-player-image">
+                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                </div>
+                                                <div class="entry-player-info-wrap">
+                                                    <div class="entry-player-name">
+                                                        Viktor AXELSEN [1] </div>
+                                                    <div class="entry-player-flag">
+                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
+                                                        <span class="l">Denmark</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div> <!-- END ROUND THREE -->
-                </div>
-
-                <div class="champion">
-                    <div class="final">
-                        <i class="fa fa-trophy"></i>
-                        <div class="round-details">championship <br /><span class="date">March 30 - Apr. 1</span></div>
-                        <ul class="matchup championship">
-                            <li class="team team-top">&nbsp;<span class="vote-count">&nbsp;</span></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </section>

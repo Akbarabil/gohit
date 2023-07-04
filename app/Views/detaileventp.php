@@ -62,7 +62,7 @@
 </div>
 <input type="text" name="lol" value="<?php echo $nama ?>" class="formbold-form-input" />
 <div>
-    <?= $this->include('partial/peserta') ?>
+    <?= $this->include('partial/peserta2') ?>
 </div>
 <div>
     <?= $this->include('partial/bracket') ?>

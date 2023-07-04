@@ -32,9 +32,11 @@
                 <label class="formbold-form-label">Type Sport</label>
 
                 <select class="formbold-form-input " name="type">
+                    <option value="Badminton">Badminton</option>
+                    <option value="FootBall">FootBall</option>
+                    <option value="Pimpong">Pimpong</option>
+                    <option value="Running">Running</option>
                     <option value="Esport">Esport</option>
-                    <option value="Sport">Sport</option>
-                    <option value="Others">Others</option>
                 </select>
             </div>
 
@@ -42,7 +44,6 @@
                 <label class="formbold-form-label">Participan</label>
                 <select class="formbold-form-input " name="participan">
                     <option value="8">8</option>
-                    <option value="6">16</option>
                 </select>
             </div>
 
@@ -86,3 +87,4 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 </style>
+<?= $this->include('partial/footer') ?>

@@ -67,4 +67,39 @@ class DetailEvent extends BaseController
             echo view("detaileventp", $data);
         }
     }
+
+    public function list($idevent)
+    {
+        $session = session();
+        $userModel = new user();
+        $MyEvent = new MyEventMod();
+        $namaPengguna = $session->get('id');
+
+        $selectedevent = $MyEvent->where('type_sport', $idevent)->findAll();
+        if (!$session->has('id')) {
+            $data = [
+                'title' => 'Login'
+            ];
+            echo view("login", $data);
+        } else {
+            if (!empty($selectedevent)) {
+                $user = $userModel->getUserById($namaPengguna);
+                $data = [
+                    'compe' => $selectedevent,
+                    'nama' => $user['nama'],
+                    'id' => $namaPengguna,
+                    'title' => 'event'
+                ];
+                echo view("allevent", $data);
+            } else {
+                $user = $userModel->getUserById($namaPengguna);
+                $data = [
+                    'nama' => $user['nama'],
+                    'id' => $namaPengguna,
+                    'compe' => "",
+                ];
+                echo view("allevent", $data);
+            }
+        }
+    }
 }
