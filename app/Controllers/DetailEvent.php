@@ -5,6 +5,8 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\User;
 use App\Models\MyEventMod;
+use App\Models\Peserta;
+
 
 class DetailEvent extends BaseController
 {
@@ -13,8 +15,8 @@ class DetailEvent extends BaseController
         $session = session();
         $userModel = new user();
         $MyEvent = new MyEventMod();
+        $peserta = new Peserta();
         $namaPengguna = $session->get('id');
-
         $selectedevent = $MyEvent->where('id_event', $idevent)->findAll();
 
 
@@ -44,15 +46,9 @@ class DetailEvent extends BaseController
         $userModel = new user();
         $MyEvent = new MyEventMod();
         $namaPengguna = $session->get('id');
-
         $selectedevent = $MyEvent->where('id_event', $idevent)->findAll();
-
-
         if (!$session->has('id')) {
-            $data = [
-                'title' => 'Login'
-            ];
-            echo view("login", $data);
+            return redirect()->to(base_url('/home'));
         } else {
             $userModel = new user();
             $user = $userModel->getUserById($namaPengguna);
@@ -61,6 +57,7 @@ class DetailEvent extends BaseController
             $data = [
                 'selectedevent' => $selectedevent,
                 'nama' => $user['nama'],
+                'id_user' => $user['id_user'],
                 'isi' => $latestProducts,
                 'title' => 'event'
             ];

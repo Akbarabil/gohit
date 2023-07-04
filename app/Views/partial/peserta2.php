@@ -4,7 +4,17 @@
         <p class="intro" id="intro">Peserta</p>
     </div>
 </header>
-
+<script>
+    function showConfirmation() {
+        var confirmation = confirm("Apakah Anda ingin bergabung?");
+        if (confirmation) {
+            var form = document.getElementById("join-form");
+            form.submit();
+        } else {
+            alert("Cancel");
+        }
+    }
+</script>
 <?php if (!empty($compe)) {
     foreach ($compe as $isi) {
 ?>
@@ -33,4 +43,10 @@
         <h1>ceOops tidak ada kompetisi</h1>
     </div>
 <?php } ?>
-<center><a href="login"><button type="button" class="btn btn-primary fw-bold" style="margin-top: 2cm;">JOIN</button></a></center>
+<form id="join-form" method="POST" action="/join/add">
+    <input type="hidden" name="idevent" value="<?php echo $selectedevent[0]['id_event'] ?>" class="formbold-form-input" />
+    <input type="hidden" name="iduser" value="<?php echo $id_user ?>" class="formbold-form-input" />
+    <center>
+        <button type="button" class="btn btn-primary fw-bold" style="margin-top: 2cm;" onclick="showConfirmation()">JOIN</button>
+    </center>
+</form>

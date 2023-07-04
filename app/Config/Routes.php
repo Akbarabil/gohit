@@ -47,6 +47,9 @@ $routes->get('/list/(:any)', 'DetailEvent::list/$1');
 $routes->get('/setting', 'Home::setting');
 $routes->get('/logout', 'Login::logout');
 $routes->get('/hots', 'Hotss::index');
+$routes->post('/join/add', 'join::join');
+
+$routes->get('/admin/dashboard', 'Admin\DashboardController::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
