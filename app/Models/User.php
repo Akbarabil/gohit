@@ -23,7 +23,7 @@ class User extends Model
         return $builder->insert($data);
     }
     protected $primaryKey = 'id_user'; // Primary key tabel pengguna
-    protected $allowedFields = ['email', 'password', 'name']; // Kolom yang dapat diisi pada tabel pengguna
+    protected $allowedFields = ['email', 'password', 'nama']; // Kolom yang dapat diisi pada tabel pengguna
 
     public function getUserByEmail($email)
     {
