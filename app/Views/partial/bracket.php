@@ -24,329 +24,356 @@
             </div>
         </header>
         <section id="bracket">
-            <div class="container">
-                <div class="split split-one">
-                    <div class="round round-one current">
-                        <div class="round-details">Quarter-Final<br /><span class="date">March 16</span></div>
-                        <ul class="matchup">
-                            <li class="team team-top">
-                                <div>
+            <?php if (!empty($bra)) {
+            ?>
+                <div class="container">
+                    <div class="split split-one">
+                        <div class="round round-one current">
+                            <div class="round-details">Quarter-Final<br /><span class="date">March 16</span></div>
+                            <ul class="matchup">
+                                <li class="team team-top">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[7]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="team team-bottom">
-                                <div>
+                                </li>
+                                <li class="team team-bottom">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[1]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="matchup">
-                            <li class="team team-top">
-                                <div>
+                                </li>
+                            </ul>
+                            <ul class="matchup">
+                                <li class="team team-top">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[0]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="team team-bottom">
-                                <div>
+                                </li>
+                                <li class="team team-bottom">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[6]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="matchup">
-                            <li class="team team-top">
-                                <div>
+                                </li>
+                            </ul>
+                            <ul class="matchup">
+                                <li class="team team-top">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[5]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="team team-bottom">
-                                <div>
+                                </li>
+                                <li class="team team-bottom">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[3]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="matchup">
-                            <li class="team team-top">
-                                <div>
+                                </li>
+                            </ul>
+                            <ul class="matchup">
+                                <li class="team team-top">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[2]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="team team-bottom">
-                                <div>
+                                </li>
+                                <li class="team team-bottom">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/2472/PNG/512/chess_pion_game_icon_149653.png " class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <?php echo $bra[4]['nama'] ?></div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> <!-- END ROUND ONE -->
+                                </li>
+                            </ul>
+                        </div> <!-- END ROUND ONE -->
 
-                    <div class="round round-two">
-                        <div class="round-details">Semi-Final<br /><span class="date">March 18</span></div>
-                        <ul class="matchup1">
-                            <li class="team team-top">
-                                <div>
+                        <div class="round round-two">
+                            <div class="round-details">Semi-Final<br /><span class="date">March 18</span></div>
+                            <ul class="matchup1">
+                                <li class="team team-top">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/3019/PNG/512/chess_horse_icon_188626.png" class="b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <select class="form-control player-dropdown" id="playerDropdown1">
+                                                            <option value="">--Pilih--</option>
+                                                            <option value="<?php echo $bra[7]['nama'] ?>"><?php echo $bra[7]['nama'] ?></option>
+                                                            <option value="<?php echo $bra[1]['nama'] ?>"><?php echo $bra[1]['nama'] ?></option>
+                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
+                                                        </select>
+                                                    </div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="team team-bottom">
-                                <div>
+                                </li>
+                                <li class="team team-bottom">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/3019/PNG/512/chess_horse_icon_188626.png" class="b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <select class="form-control player-dropdown" id="playerDropdown2">
+                                                            <option value="">--Pilih--</option>
+                                                            <option value="<?php echo $bra[0]['nama'] ?>"><?php echo $bra[0]['nama'] ?></option>
+                                                            <option value="<?php echo $bra[6]['nama'] ?>"><?php echo $bra[6]['nama'] ?></option>
+                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
+                                                        </select>
+                                                    </div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="matchup1">
-                            <li class="team team-top">
-                                <div>
+                                </li>
+                            </ul>
+                            <ul class="matchup1">
+                                <li class="team team-top">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/3019/PNG/512/chess_horse_icon_188626.png" class="b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <select class="form-control player-dropdown" id="playerDropdown3">
+                                                            <option value="">--Pilih--</option>
+                                                            <option value="<?php echo $bra[5]['nama'] ?>"><?php echo $bra[5]['nama'] ?></option>
+                                                            <option value="<?php echo $bra[3]['nama'] ?>"><?php echo $bra[3]['nama'] ?></option>
+                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
+                                                        </select>
+                                                    </div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="team team-bottom">
-                                <div>
+                                </li>
+                                <li class="team team-bottom">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://cdn.icon-icons.com/icons2/3019/PNG/512/chess_horse_icon_188626.png" class="b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        Viktor AXELSEN [1] </div>
+                                                        <select class="form-control player-dropdown" id="playerDropdown4">
+                                                            <option value="">--Pilih--</option>
+                                                            <option value="<?php echo $bra[2]['nama'] ?>"><?php echo $bra[2]['nama'] ?></option>
+                                                            <option value="<?php echo $bra[4]['nama'] ?>"><?php echo $bra[4]['nama'] ?></option>
+                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
+                                                        </select>
+                                                    </div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> <!--  END ROUND TWO -->
+                                </li>
+                            </ul>
+                        </div> <!--  END ROUND TWO -->
 
-                    <div class="round round-three">
-                        <div class="round-details">Final<br /><span class="date">March 22</span></div>
-                        <ul class="matchup2">
-                            <li class="team team-top">
-                                <div>
+                        <div class="round round-three">
+                            <div class="round-details">Final<br /><span class="date">March 22</span></div>
+                            <ul class="matchup2">
+                                <li class="team team-top">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hUiner6vrKiqnLKNjTbvtrNnaD5wWvuJ4x1JLwUMwY0P9Q2jUV99_qvyvlUs-3cigIE&usqp=CAU" class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
                                                         Viktor AXELSEN [1] </div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="team team-bottom">
-                                <div>
+                                </li>
+                                <li class="team team-bottom">
                                     <div>
-                                        <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+                                        <div>
                                             <div class="entry-player-wrap">
                                                 <div class="entry-player-image">
-                                                    <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8hUiner6vrKiqnLKNjTbvtrNnaD5wWvuJ4x1JLwUMwY0P9Q2jUV99_qvyvlUs-3cigIE&usqp=CAU" class=" b-error">
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
                                                         Viktor AXELSEN [1] </div>
                                                     <div class="entry-player-flag">
-                                                        <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                                        <span class="l">Denmark</span>
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class=" b-error1">
+                                                        <span class="l">Indonesia</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> <!-- END ROUND THREE -->
+                                </li>
+                            </ul>
+                        </div> <!-- END ROUND THREE -->
+                    </div>
                 </div>
-            </div>
+            <?php } else { ?>
+                <div style="text-align: center;">
+                    <h1>Bracket belum di generate</h1>
+                </div>
+            <?php } ?>
         </section>
     </body>
 </center>
+<script>
+    // Get all the dropdowns with class "player-dropdown"
+    const playerDropdowns = document.querySelectorAll('.player-dropdown');
+
+    // Apply the click listener to each dropdown
+    playerDropdowns.forEach((dropdown) => {
+        dropdown.addEventListener('change', function() {
+            const selectedPlayer = this.value;
+            const matchupNumber = this.id.match(/\d+/)[0]; // Extract the matchup number from the id attribute
+
+            if (selectedPlayer) {
+                const confirmMsg = `Apakah Anda yakin ingin memilih ${selectedPlayer}?`;
+                if (confirm(confirmMsg)) {
+                    // Aksi jika konfirmasi berhasil
+                    alert(`Anda telah memilih ${selectedPlayer} pada matchup ${matchupNumber}!`);
+                    // Lakukan aksi lain seperti mengakses database sesuai kebutuhan.
+                } else {
+                    // Aksi jika konfirmasi dibatalkan
+                    this.selectedIndex = 0;
+                }
+            }
+        });
+    });
+</script>
