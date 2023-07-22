@@ -15,16 +15,17 @@ class Login extends BaseController
         $session = session();
         $MyEvent = new MyEventMod();
         $namaPengguna = $session->get('id');
+        $latestProducts = $MyEvent->findAll(3);
         if (!$session->has('id')) {
 
             $data = [
+                'compe' => $latestProducts,
                 'title' => 'Log In'
             ];
             echo view("home", $data);
         } else {
             $userModel = new user();
             $user = $userModel->getUserById($namaPengguna);
-            $latestProducts = $MyEvent->findAll(5);
             $data = [
                 'nama' => $user['nama'],
                 'id' => $namaPengguna,

@@ -15,4 +15,9 @@ class Peserta extends Model
         $builder = $this->db->table($this->table);
         return $builder->insert($data);
     }
+
+    public function showuser($idevent)
+    {
+        return $this->where('id_event', $idevent)->first();
+    }
 }

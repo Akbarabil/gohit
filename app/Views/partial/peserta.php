@@ -30,7 +30,7 @@
     <?php } ?>
 <?php } else { ?>
     <div style="text-align: center;">
-        <h1>ceOops tidak ada kompetisi</h1>
+        <h1>Oops tidak ada peserta</h1>
     </div>
 
 <?php } ?>

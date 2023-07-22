@@ -45,16 +45,25 @@ class DetailEvent extends BaseController
         $session = session();
         $userModel = new user();
         $MyEvent = new MyEventMod();
+        $peserta = new Peserta();
         $namaPengguna = $session->get('id');
         $selectedevent = $MyEvent->where('id_event', $idevent)->findAll();
         if (!$session->has('id')) {
             return redirect()->to(base_url('/home'));
         } else {
-            $userModel = new user();
+            $peserta1 = $peserta->where('id_event', $idevent)->findAll();
+            $primaryKeys = array_column($peserta1, 'id_user');
+
+            // Ambil data dari tabel_lain berdasarkan primary key yang terkait dengan peserta1
+            $tabelLainData = [];
+            if (!empty($primaryKeys)) {
+                $tabelLainData = $userModel->whereIn('id_user', $primaryKeys)->findAll();
+            }
             $user = $userModel->getUserById($namaPengguna);
             $MyEvent = new MyEventMod();
             $latestProducts = $MyEvent->getexpertslug('hh');
             $data = [
+                'compe' => $tabelLainData,
                 'selectedevent' => $selectedevent,
                 'nama' => $user['nama'],
                 'id_user' => $user['id_user'],
@@ -77,7 +86,7 @@ class DetailEvent extends BaseController
             $data = [
                 'title' => 'Login'
             ];
-            echo view("login", $data);
+            return redirect()->to(base_url('/home'));
         } else {
             if (!empty($selectedevent)) {
                 $user = $userModel->getUserById($namaPengguna);
