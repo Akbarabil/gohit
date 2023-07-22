@@ -53,7 +53,8 @@ class DetailEvent extends BaseController
         } else {
             $peserta1 = $peserta->where('id_event', $idevent)->findAll();
             $primaryKeys = array_column($peserta1, 'id_user');
-
+            $countPeserta1 = count($peserta1);
+            $showJoinButton = $countPeserta1 < 8;
             // Ambil data dari tabel_lain berdasarkan primary key yang terkait dengan peserta1
             $tabelLainData = [];
             if (!empty($primaryKeys)) {
@@ -64,11 +65,13 @@ class DetailEvent extends BaseController
             $latestProducts = $MyEvent->getexpertslug('hh');
             $data = [
                 'compe' => $tabelLainData,
+                'bra' => $tabelLainData,
                 'selectedevent' => $selectedevent,
                 'nama' => $user['nama'],
                 'id_user' => $user['id_user'],
                 'isi' => $latestProducts,
-                'title' => 'event'
+                'title' => 'event',
+                'show_join_button' => $showJoinButton
             ];
             echo view("detaileventp", $data);
         }
