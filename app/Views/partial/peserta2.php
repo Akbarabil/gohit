@@ -58,7 +58,7 @@
                 <div class="entry-player-pair-wrap">
                     <div class="entry-player-wrap">
                         <div class="entry-player-image">
-                            <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                            <img src="https://w7.pngwing.com/pngs/529/972/png-transparent-award-prize-medal-computer-icons-award-culture-trophy-symbol-thumbnail.png" class=" b-error">
                         </div>
                         <div class="entry-player-info-wrap">
                             <div class="entry-player-name">
@@ -73,7 +73,7 @@
         <?php } ?>
     <?php } else { ?>
         <div style="text-align: center;">
-            <h1>ceOops tidak ada kompetisi</h1>
+            <h1>Tidak ada peserta</h1>
         </div>
     <?php } ?>
 </div>
