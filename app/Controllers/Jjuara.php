@@ -9,11 +9,12 @@ class Jjuara extends BaseController
 {
     public function saveData()
     {
+        $db = \Config\Database::connect();
         $data = $this->request->getJSON();
         $player = $data->player;
         $matchupNumber = $data->matchup;
         $model = new Juara();
-        $model->save(['id_event' => $player, 'id_user-semi1' => $matchupNumber]);
+        $db->table('juara')->where('id_event', $player)->update(['id_user-semi1' => $matchupNumber]);
         return $this->response->setJSON(['message' => "Data for player $player in matchup $matchupNumber has been saved to the database."]);
     }
     public function saveData1()

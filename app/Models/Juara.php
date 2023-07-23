@@ -12,6 +12,18 @@ class Juara extends Model
     public function saveuser($wew)
     {
         $builder = $this->db->table($this->table);
-        return $builder->insert($wew);
+
+        // Cek apakah data sudah ada dalam database berdasarkan kriteria tertentu
+        // Misalnya, kita asumsikan ada kolom bernama "username" dalam tabel, dan kita ingin memeriksa keberadaan username.
+        $existingData = $builder->getWhere(['id_event' => $wew['id_event']])->getResult();
+
+        if (!empty($existingData)) {
+            // Jika data sudah ada, Anda dapat mengambil tindakan yang sesuai di sini.
+            // Misalnya, Anda dapat mengembalikan pesan atau nilai tertentu, atau hanya mengabaikan aksi tambahan.
+            return 'Data already exists';
+        } else {
+            // Jika data belum ada, lakukan operasi insert
+            return $builder->insert($wew);
+        }
     }
 }
