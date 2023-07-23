@@ -1,36 +1,79 @@
 <link rel="stylesheet" href="<?= base_url('assets/css/peserta.css') ?>">
+<style>
+    .entry-player-all-wrap1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .entry-player-pair-wrap {
+        width: 450px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .entry-player-wrap {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .entry-player-image img {
+        max-width: 75%;
+        height: auto;
+    }
+
+    .entry-player-flag img {
+        max-width: 20px;
+        height: auto;
+        vertical-align: middle;
+    }
+
+    .entry-player-flag .l {
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+</style>
 <header class="hero">
     <div class="hero-wrap">
         <p class="intro" id="intro">Peserta</p>
     </div>
 </header>
-
-<?php if (!empty($compe)) {
-    foreach ($compe as $isi) {
-?>
-        <div class="entry-player-all-wrap">
-            <div class="entry-player-pair-wrap">
-                <a href="https://bwfworldtour.bwfbadminton.com/player/25831/viktor-axelsen">
+<script>
+    function showConfirmation() {
+        var confirmation = confirm("Apakah Anda ingin bergabung?");
+        if (confirmation) {
+            var form = document.getElementById("join-form");
+            form.submit();
+        } else {
+            alert("Cancel");
+        }
+    }
+</script>
+<div class="entry-player-all-wrap1">
+    <?php if (!empty($compe)) {
+        foreach ($compe as $isi) {
+    ?>
+            <div class="entry-player-all-wrap">
+                <div class="entry-player-pair-wrap">
                     <div class="entry-player-wrap">
                         <div class="entry-player-image">
-                            <img src="https://res.cloudinary.com/bwf/w_308,h_359,c_thumb,g_face:center/v1627947839/assets/players/thumbnail/25831" class=" b-error">
+                            <img src="https://w7.pngwing.com/pngs/529/972/png-transparent-award-prize-medal-computer-icons-award-culture-trophy-symbol-thumbnail.png" class=" b-error">
                         </div>
                         <div class="entry-player-info-wrap">
                             <div class="entry-player-name">
-                                Viktor AXELSEN [1] </div>
+                                <?php echo $isi['nama'] ?></div>
                             <div class="entry-player-flag">
-                                <img src="https://extranet.bwf.sport/docs/flags/denmark.png" class=" b-error1">
-                                <span class="l">Denmark</span>
+                                <p>Denmark</p>
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
+        <?php } ?>
+    <?php } else { ?>
+        <div style="text-align: center;">
+            <h1>Tidak ada peserta</h1>
         </div>
     <?php } ?>
-<?php } else { ?>
-    <div style="text-align: center;">
-        <h1>Oops tidak ada peserta</h1>
-    </div>
-
-<?php } ?>
+</div>
