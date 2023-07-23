@@ -252,16 +252,9 @@
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        <select class="form-control player-dropdown" id="playerDropdown1">
-                                                            <option value="">--Pilih--</option>
-                                                            <?php if (isset($bra[7]['id_user']) && isset($bra[7]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[7]['id_user'] ?>"><?php echo $bra[7]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[1]['id_user']) && isset($bra[1]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[1]['id_user'] ?>"><?php echo $bra[1]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
-                                                        </select>
+                                                        <?php if (isset($HH1['nama'])) : ?>
+                                                            <?php echo $HH1['nama']; ?>
+                                                        <?php endif; ?>
                                                     </div>
                                                     <div class="entry-player-flag">
                                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
@@ -281,16 +274,9 @@
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        <select class="form-control player-dropdown1" id="playerDropdown2">
-                                                            <option value="">--Pilih--</option>
-                                                            <?php if (isset($bra[0]['id_user']) && isset($bra[0]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[0]['id_user'] ?>"><?php echo $bra[0]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[6]['id_user']) && isset($bra[6]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[6]['id_user'] ?>"><?php echo $bra[6]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
-                                                        </select>
+                                                        <?php if (isset($HH2['nama'])) : ?>
+                                                            <?php echo $HH2['nama']; ?>
+                                                        <?php endif; ?>
                                                     </div>
                                                     <div class="entry-player-flag">
                                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
@@ -312,16 +298,9 @@
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        <select class="form-control player-dropdown2" id="playerDropdown3">
-                                                            <option value="">--Pilih--</option>
-                                                            <?php if (isset($bra[5]['id_user']) && isset($bra[5]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[5]['id_user'] ?>"><?php echo $bra[5]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[3]['id_user']) && isset($bra[3]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[3]['id_user'] ?>"><?php echo $bra[3]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
-                                                        </select>
+                                                        <?php if (isset($HH3['nama'])) : ?>
+                                                            <?php echo $HH3['nama']; ?>
+                                                        <?php endif; ?>
                                                     </div>
                                                     <div class="entry-player-flag">
                                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
@@ -341,16 +320,9 @@
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        <select class="form-control player-dropdown3" id="playerDropdown4">
-                                                            <option value="">--Pilih--</option>
-                                                            <?php if (isset($bra[2]['id_user']) && isset($bra[2]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[2]['id_user'] ?>"><?php echo $bra[2]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[4]['id_user']) && isset($bra[4]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[4]['id_user'] ?>"><?php echo $bra[4]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
-                                                        </select>
+                                                        <?php if (isset($HH4['nama'])) : ?>
+                                                            <?php echo $HH4['nama']; ?>
+                                                        <?php endif; ?>
                                                     </div>
                                                     <div class="entry-player-flag">
                                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
@@ -376,22 +348,9 @@
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        <select class="form-control player-dropdown4" id="playerDropdown5">
-                                                            <option value="">--Pilih--</option>
-                                                            <?php if (isset($bra[0]['id_user']) && isset($bra[0]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[0]['id_user'] ?>"><?php echo $bra[0]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[6]['id_user']) && isset($bra[6]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[6]['id_user'] ?>"><?php echo $bra[6]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[7]['id_user']) && isset($bra[7]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[7]['id_user'] ?>"><?php echo $bra[7]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[1]['id_user']) && isset($bra[1]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[1]['id_user'] ?>"><?php echo $bra[1]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
-                                                        </select>
+                                                        <?php if (isset($HH5['nama'])) : ?>
+                                                            <?php echo $HH5['nama']; ?>
+                                                        <?php endif; ?>
                                                     </div>
                                                     <div class="entry-player-flag">
                                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">
@@ -411,22 +370,9 @@
                                                 </div>
                                                 <div class="entry-player-info-wrap">
                                                     <div class="entry-player-name">
-                                                        <select class="form-control player-dropdown5" id="playerDropdown6">
-                                                            <option value="">--Pilih--</option>
-                                                            <?php if (isset($bra[5]['id_user']) && isset($bra[5]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[5]['id_user'] ?>"><?php echo $bra[5]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[3]['id_user']) && isset($bra[3]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[3]['id_user'] ?>"><?php echo $bra[3]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[2]['id_user']) && isset($bra[2]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[2]['id_user'] ?>"><?php echo $bra[2]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <?php if (isset($bra[4]['id_user']) && isset($bra[4]['nama'])) : ?>
-                                                                <option value="<?php echo $bra[4]['id_user'] ?>"><?php echo $bra[4]['nama'] ?></option>
-                                                            <?php endif; ?>
-                                                            <!-- Tambahkan pilihan nama lain sesuai kebutuhan -->
-                                                        </select>
+                                                        <?php if (isset($HH6['nama'])) : ?>
+                                                            <?php echo $HH6['nama']; ?>
+                                                        <?php endif; ?>
                                                     </div>
                                                     <div class="entry-player-flag">
                                                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/2000px-Flag_of_Indonesia.svg.png" class="b-error1">

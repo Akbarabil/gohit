@@ -41,13 +41,22 @@ $routes->post('/form/add', 'Formevent::form');
 $routes->get('/join', 'Home::join');
 $routes->get('/list', 'Home::list');
 $routes->get('/event', 'MyEvent::index');
-$routes->get('/dt/(:any)', 'DetailEvent::index/$1');
-$routes->get('/dtt/(:any)', 'DetailEvent::peserta/$1');
+$routes->get('/dt/(:any)', 'DetailEvent::peserta/$1');
+$routes->get('/dtt/(:any)', 'DetailEvent::index/$1');
 $routes->get('/list/(:any)', 'DetailEvent::list/$1');
 $routes->get('/setting', 'Home::setting');
 $routes->get('/logout', 'Login::logout');
 $routes->get('/hots', 'Hotss::index');
 $routes->post('/join/add', 'join::join');
+$routes->post('save-data', 'Jjuara::saveData');
+$routes->post('save-data1', 'Jjuara::saveData1');
+$routes->post('save-data2', 'Jjuara::saveData2');
+$routes->post('save-data3', 'Jjuara::saveData3');
+$routes->post('save-data4', 'Jjuara::saveData4');
+$routes->post('save-data5', 'Jjuara::saveData5');
+$routes->post('save-data6', 'Jjuara::saveData7');
+$routes->post('save-data7', 'Jjuara::saveData8');
+$routes->post('save-data8', 'Jjuara::saveData6');
 
 $routes->get('/admin/dashboard', 'Admin\DashboardController::index');
 /*

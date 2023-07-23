@@ -67,5 +67,8 @@
 <div>
     <?= $this->include('partial/bracket') ?>
 </div>
+<div>
+    <?= $this->include('partial/podiump') ?>
+</div>
 <?= $this->include('partial/latest') ?>
 <?= $this->include('partial/footer') ?>
