@@ -64,17 +64,33 @@ class Login extends BaseController
 
     public function add()
     {
-        $model = new user;
+        $model = new User();
+        $nama = $this->request->getPost("nama");
+        $email = $this->request->getPost("email");
+        $password = $this->request->getPost("password");
+        $retypePassword = $this->request->getPost("repass"); // Added line to get re-typed password
+
+        // Check if passwords match
+        if ($password !== $retypePassword) {
+            echo '<script>
+                alert("Password tidak cocok. Silakan coba lagi.");
+                window.location="' . base_url('/reg') . '"
+            </script>';
+            exit;
+        }
+
+        // If passwords match, proceed with creating the new user
         $data = array(
-            'nama' => $this->request->getPost("nama"),
-            'email' => $this->request->getPost("email"),
-            'password' => $this->request->getPost("password"),
+            'nama' => $nama,
+            'email' => $email,
+            'password' => $password,
             'jenis' => "1"
         );
         $model->saveuser($data);
+
         echo '<script>
-                alert("Selamat! Berhasil Menambah Data ");
-                window.location="' . base_url('/login') . '"
-            </script>';
+            alert("Selamat! Berhasil Menambah Data ");
+            window.location="' . base_url('/login') . '"
+        </script>';
     }
 }
